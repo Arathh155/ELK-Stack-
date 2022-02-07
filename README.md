@@ -18,7 +18,7 @@ Machines Being Monitored,
 Ansible Build How-to
 
 **Description of the Topology**
-The purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application. Load abalancing keep application highly available and easier to manage. The Jumpbox acts as a gateway point for the private servers. Putting in an ELK Server allows us to monitor vulnerable Virtual machines for changes in the data and/or system logs.
 
 | Name           | Function     | IP Address                 | Operating System |
 |----------------|--------------|----------------------------|------------------|
